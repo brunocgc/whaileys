@@ -4,11 +4,6 @@ title: "[BUG] "
 labels: ["bug"]
 
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Create a report to help improve the library.
-
   - type: textarea
     id: descricao
     attributes:
@@ -18,7 +13,7 @@ body:
       required: true
 
   - type: textarea
-    id: passos
+    id: problem
     attributes:
       label: To Reproduce
       placeholder: |
@@ -30,7 +25,7 @@ body:
       required: true
 
   - type: textarea
-    id: esperado
+    id: environment
     attributes:
       label: Environment (please complete the following information)
       placeholder: |
@@ -42,7 +37,7 @@ body:
       required: true
 
   - type: textarea
-    id: esperado
+    id: context
     attributes:
       label: Additional context
       placeholder: Add any other context about the problem here.
