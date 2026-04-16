@@ -1,8 +1,8 @@
 name: 🐛 Bug report
 description: Create a report to help improve the library
 title: "[BUG] "
-labels:
-  - bug
+labels: ["bug"]
+
 body:
   - type: markdown
     attributes:
